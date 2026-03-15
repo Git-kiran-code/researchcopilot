@@ -11,8 +11,7 @@ langchain-core
 
 # Vector DB & RAG
 chromadb
-sentence-transformers
-torch==2.1.2+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
+sentence-transformers[onnx]
 numpy
 
 # arXiv ingestion
