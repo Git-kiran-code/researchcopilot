@@ -1,26 +1,14 @@
-# API & Server
 fastapi
 uvicorn[standard]
 python-dotenv
 pydantic
-
-# LLM
 langchain
 langchain-groq
 langchain-core
-
-# Vector DB & RAG
 chromadb
-sentence-transformers[onnx]
+sentence-transformers
 numpy
-
-# arXiv ingestion
-arxiv
 pymupdf
-
-# Document parsing
 python-docx
-
-# Frontend
-streamlit
 requests
+arxiv
