@@ -5,10 +5,11 @@ pydantic
 langchain
 langchain-groq
 langchain-core
+langchain-community
 chromadb
-sentence-transformers
 numpy
 pymupdf
 python-docx
 requests
 arxiv
+streamlit
