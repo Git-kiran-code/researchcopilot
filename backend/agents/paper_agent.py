@@ -1,7 +1,7 @@
 # backend/agents/paper_agent.py
 from backend.agents.llm import get_llm
 from backend.rag.query import retrieve
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 def recommend_papers(query: str) -> dict:
     """Retrieve and summarize top papers for a query."""

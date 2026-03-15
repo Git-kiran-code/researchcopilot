@@ -1,7 +1,7 @@
 # backend/agents/literature_agent.py
 from backend.agents.llm import get_llm
 from backend.rag.query import retrieve
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 def generate_literature_review(query: str, length: str = "medium") -> dict:
     llm = get_llm()

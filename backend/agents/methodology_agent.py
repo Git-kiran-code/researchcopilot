@@ -1,7 +1,7 @@
 # backend/agents/methodology_agent.py
 from backend.agents.llm import get_llm
 from backend.rag.query import retrieve
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 def extract_methodology(query: str) -> dict:
     llm = get_llm()

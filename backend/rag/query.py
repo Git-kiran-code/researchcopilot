@@ -1,6 +1,6 @@
 import chromadb
 from backend.agents.llm import get_llm
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 CHROMA_PATH = "storage/chroma_db"
 COLLECTION_NAME = "research_papers"

@@ -7,7 +7,7 @@ from backend.agents.literature_agent import generate_literature_review
 from backend.agents.methodology_agent import extract_methodology
 from backend.agents.citation_agent import analyze_citation_network
 from backend.agents.llm import get_llm
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 
 app = FastAPI(title="ResearchCopilot API")
 
