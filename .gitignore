@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment — never commit this
+myenv/
+venv/
+env/
+.venv/
+
+# Environment variables — NEVER commit your API keys
+.env
+
+# Storage / vector database — too large for GitHub
+storage/
+chroma_db/
+
+# Downloaded PDFs — too large for GitHub
+data/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
