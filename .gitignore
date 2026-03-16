@@ -16,10 +16,6 @@ env/
 # Environment variables — NEVER commit your API keys
 .env
 
-# Storage / vector database — too large for GitHub
-storage/
-chroma_db/
-
 # Downloaded PDFs — too large for GitHub
 data/
 
