@@ -4,7 +4,7 @@ import re
 import io
 import time
 
-API = "https://researchcopilot-1.onrender.com"
+API = "https://researchcopilot-1.onrender.com"  # v2
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
